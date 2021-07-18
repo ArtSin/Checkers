@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckersClient", "CheckersClient\CheckersClient\CheckersClient.csproj", "{25CC64C4-7A64-49E2-BC84-69FAEA529342}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckersClient.Gtk", "CheckersClient\CheckersClient.Gtk\CheckersClient.Gtk.csproj", "{40188840-0FA3-4F1F-82F2-15AA30BA8760}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckersClient.Windows", "CheckersClient\CheckersClient.Windows\CheckersClient.Windows.csproj", "{E1689E26-26E0-4923-8868-7DC7C55C4C06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckersLib", "CheckersLib\CheckersLib.csproj", "{771F2A24-F6C8-44F6-B08C-0F39E690D58A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckersServer", "CheckersServer\CheckersServer.csproj", "{AE8E239D-CBF6-41D2-9E75-1BC6BF0D8495}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckersBot", "CheckersBot\CheckersBot.csproj", "{2DE1E407-2A7F-42D0-83CC-19128E157D12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckersBotTest", "CheckersBotTest\CheckersBotTest.csproj", "{3439FC7E-E6CB-44A8-BEB9-CED9B3707756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25CC64C4-7A64-49E2-BC84-69FAEA529342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CC64C4-7A64-49E2-BC84-69FAEA529342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CC64C4-7A64-49E2-BC84-69FAEA529342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CC64C4-7A64-49E2-BC84-69FAEA529342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40188840-0FA3-4F1F-82F2-15AA30BA8760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40188840-0FA3-4F1F-82F2-15AA30BA8760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40188840-0FA3-4F1F-82F2-15AA30BA8760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40188840-0FA3-4F1F-82F2-15AA30BA8760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1689E26-26E0-4923-8868-7DC7C55C4C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1689E26-26E0-4923-8868-7DC7C55C4C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1689E26-26E0-4923-8868-7DC7C55C4C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1689E26-26E0-4923-8868-7DC7C55C4C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771F2A24-F6C8-44F6-B08C-0F39E690D58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771F2A24-F6C8-44F6-B08C-0F39E690D58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771F2A24-F6C8-44F6-B08C-0F39E690D58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771F2A24-F6C8-44F6-B08C-0F39E690D58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8E239D-CBF6-41D2-9E75-1BC6BF0D8495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8E239D-CBF6-41D2-9E75-1BC6BF0D8495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8E239D-CBF6-41D2-9E75-1BC6BF0D8495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8E239D-CBF6-41D2-9E75-1BC6BF0D8495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE1E407-2A7F-42D0-83CC-19128E157D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE1E407-2A7F-42D0-83CC-19128E157D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE1E407-2A7F-42D0-83CC-19128E157D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE1E407-2A7F-42D0-83CC-19128E157D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3439FC7E-E6CB-44A8-BEB9-CED9B3707756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3439FC7E-E6CB-44A8-BEB9-CED9B3707756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3439FC7E-E6CB-44A8-BEB9-CED9B3707756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3439FC7E-E6CB-44A8-BEB9-CED9B3707756}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A523733E-C73C-4D0C-AA33-3336ADA391E0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,54 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CheckersBot",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-CheckersBot",
+            "program": "${workspaceFolder}/CheckersBot/bin/Debug/netcoreapp3.1/CheckersBot.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CheckersBot",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "CheckersBotTest",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-CheckersBotTest",
+            "program": "${workspaceFolder}/CheckersBotTest/bin/Debug/netcoreapp3.1/CheckersBotTest.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CheckersBotTest",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "CheckersClient.Gtk",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-CheckersClient.Gtk",
+            "program": "${workspaceFolder}/CheckersClient/CheckersClient.Gtk/bin/Debug/netcoreapp3.1/CheckersClient.Gtk.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CheckersClient/CheckersClient.Gtk",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "CheckersServer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-CheckersServer",
+            "program": "${workspaceFolder}/CheckersServer/bin/Debug/netcoreapp3.1/CheckersServer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CheckersServer",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
