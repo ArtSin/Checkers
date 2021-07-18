@@ -21,7 +21,15 @@
                 "publish",
                 "${workspaceFolder}/CheckersBot/CheckersBot.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                "-c",
+                "Release",
+                "-r",
+                "linux-x64",
+                "-p:PublishSingleFile=true",
+                "-p:PublishTrimmed=True",
+                "--self-contained",
+                "true"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -58,7 +66,15 @@
                 "publish",
                 "${workspaceFolder}/CheckersBotTest/CheckersBotTest.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                "-c",
+                "Release",
+                "-r",
+                "linux-x64",
+                "-p:PublishSingleFile=true",
+                "-p:PublishTrimmed=True",
+                "--self-contained",
+                "true"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -95,7 +111,15 @@
                 "publish",
                 "${workspaceFolder}/CheckersClient/CheckersClient.Gtk/CheckersClient.Gtk.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                "-c",
+                "Release",
+                "-r",
+                "linux-x64",
+                "-p:PublishSingleFile=true",
+                "-p:PublishTrimmed=True",
+                "--self-contained",
+                "true"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -132,7 +156,15 @@
                 "publish",
                 "${workspaceFolder}/CheckersServer/CheckersServer.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                "-c",
+                "Release",
+                "-r",
+                "linux-x64",
+                "-p:PublishSingleFile=true",
+                "-p:PublishTrimmed=True",
+                "--self-contained",
+                "true"
             ],
             "problemMatcher": "$msCompile"
         },
